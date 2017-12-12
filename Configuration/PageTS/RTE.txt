@@ -1,0 +1,44 @@
+#############
+#### RTE ####
+#############
+RTE {
+    config {
+        tt_content {
+            bodytext {
+                types {
+                    text {
+                        preset = site_package_basics
+                    }
+                    textcolumn {
+                        preset = site_package_basics
+                    }
+                    texticon {
+                        preset = site_package_basics
+                    }
+                    textmedia {
+                        preset = site_package_basics
+                    }
+                    textpic {
+                        preset = site_package_basics
+                    }
+                    textteaser {
+                        preset = site_package_basics
+                    }
+                    panel {
+                        preset = site_package_basics
+                    }
+                }
+            }
+        }
+        tx_bootstrappackage_accordion_item {
+            bodytext {
+                preset = site_package_basics
+            }
+        }
+        tx_bootstrappackage_tab_item {
+            bodytext {
+                preset = site_package_basics
+            }
+        }
+    }
+}
