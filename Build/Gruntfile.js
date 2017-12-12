@@ -15,7 +15,7 @@ module.exports = function(grunt) {
             js: '<%= paths.resources %>Public/JavaScript/'
         },
         banner: '/*!\n' +
-            ' * SitePackageBasics v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
+            ' * Payd v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
             ' * Copyright 2015-<%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
             ' * Licensed under the <%= pkg.license %> license\n' +
             ' */\n',

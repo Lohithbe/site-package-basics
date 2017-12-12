@@ -1,12 +1,12 @@
 {
-  "name": "site-package-basics",
-  "description": "typo3 site package basics demo",
+  "name": "payd",
+  "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lohithbe/site-package-basics"
+    "url": ""
   },
-  "homepage": "https://hof-university.de",
-  "author": "Lohith B E",
+  "homepage": "https://typo3.org",
+  "author": "Lohith",
   "version": "1.0.0",
   "license": "GPL-2.0+",
   "devDependencies": {

@@ -6,4 +6,4 @@ imports:
 
 editor:
     config:
-        contentsCss: "EXT:site_package_basics/Resources/Public/Css/rte.css"
+        contentsCss: "EXT:payd/Resources/Public/Css/rte.css"

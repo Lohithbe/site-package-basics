@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Extension Manager/Repository config file for ext "site_package_basics".
+ * Extension Manager/Repository config file for ext "payd".
  */
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'site package basics',
-    'description' => 'typo3 site package basics demo',
+    'title' => 'payd',
+    'description' => '',
     'category' => 'templates',
     'constraints' => [
         'depends' => [
@@ -18,15 +18,15 @@ $EM_CONF[$_EXTKEY] = [
     ],
     'autoload' => [
         'psr-4' => [
-            'HofUniversity\\SitePackageBasics\\' => 'Classes'
+            'Payd\\Payd\\' => 'Classes'
         ],
     ],
     'state' => 'stable',
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 1,
-    'author' => 'Lohith B E',
-    'author_email' => 'lbyadarahallieswarap@hof-university.de',
-    'author_company' => 'Hof University',
+    'author' => 'Lohith',
+    'author_email' => 'lohithbe007@gmail.com',
+    'author_company' => 'payd',
     'version' => '1.0.0',
 ];

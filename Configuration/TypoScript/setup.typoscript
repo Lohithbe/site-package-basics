@@ -10,8 +10,8 @@
 page {
     10 {
         templateName.stdWrap.cObject {
-            pagets__site_package_basics_example = TEXT
-            pagets__site_package_basics_example.value = Example
+            pagets__payd_example = TEXT
+            pagets__payd_example.value = Example
         }
     }
 
@@ -20,7 +20,7 @@ page {
     }
 
     includeCSS {
-        theme = EXT:site_package_basics/Resources/Public/Css/theme.min.css
+        theme = EXT:payd/Resources/Public/Css/theme.min.css
     }
 
     includeJSLibs {
@@ -36,6 +36,6 @@ page {
     }
 
     includeJSFooter {
-        site_package_basics_scripts = EXT:site_package_basics/Resources/Public/JavaScript/Dist/scripts.js
+        payd_scripts = EXT:payd/Resources/Public/JavaScript/Dist/scripts.js
     }
 }

@@ -6,14 +6,14 @@ call_user_func(function()
     /**
      * Temporary variables
      */
-    $extensionKey = 'site_package_basics';
+    $extensionKey = 'payd';
 
     /**
-     * Default TypoScript for SitePackageBasics
+     * Default TypoScript for Payd
      */
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         $extensionKey,
         'Configuration/TypoScript',
-        'site package basics'
+        'payd'
     );
 });

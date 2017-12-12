@@ -9,20 +9,20 @@
 ############
 page {
     logo {
-        file = EXT:site_package_basics/Resources/Public/Images/logo.svg
-        fileInverted = EXT:site_package_basics/Resources/Public/Images/logo-inverted.svg
+        file = EXT:payd/Resources/Public/Images/logo.svg
+        fileInverted = EXT:payd/Resources/Public/Images/logo-inverted.svg
         height = 52
         width = 192
-        alt = site package basics
-        linktitle = site package basics
+        alt = payd
+        linktitle = payd
     }
     favicon {
-        file = EXT:site_package_basics/Resources/Public/Icons/favicon.ico
+        file = EXT:payd/Resources/Public/Icons/favicon.ico
     }
     fluidtemplate {
-        layoutRootPath = EXT:site_package_basics/Resources/Private/Layouts/Page/
-        partialRootPath = EXT:site_package_basics/Resources/Private/Partials/Page/
-        templateRootPath = EXT:site_package_basics/Resources/Private/Templates/Page/
+        layoutRootPath = EXT:payd/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:payd/Resources/Private/Partials/Page/
+        templateRootPath = EXT:payd/Resources/Private/Templates/Page/
     }
 }
 
@@ -32,9 +32,9 @@ page {
 ##################
 plugin.bootstrap_package {
     view {
-        layoutRootPath = EXT:site_package_basics/Resources/Private/Layouts/
-        partialRootPath = EXT:site_package_basics/Resources/Private/Partials/
-        templateRootPath = EXT:site_package_basics/Resources/Private/Templates/
+        layoutRootPath = EXT:payd/Resources/Private/Layouts/
+        partialRootPath = EXT:payd/Resources/Private/Partials/
+        templateRootPath = EXT:payd/Resources/Private/Templates/
     }
 }
 
@@ -44,9 +44,9 @@ plugin.bootstrap_package {
 ########################
 plugin.bootstrap_package_contentelements {
     view {
-        layoutRootPath = EXT:site_package_basics/Resources/Private/Layouts/ContentElements/
-        partialRootPath = EXT:site_package_basics/Resources/Private/Partials/ContentElements/
-        templateRootPath = EXT:site_package_basics/Resources/Private/Templates/ContentElements/
+        layoutRootPath = EXT:payd/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:payd/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:payd/Resources/Private/Templates/ContentElements/
     }
 }
 

@@ -7,37 +7,37 @@ RTE {
             bodytext {
                 types {
                     text {
-                        preset = site_package_basics
+                        preset = payd
                     }
                     textcolumn {
-                        preset = site_package_basics
+                        preset = payd
                     }
                     texticon {
-                        preset = site_package_basics
+                        preset = payd
                     }
                     textmedia {
-                        preset = site_package_basics
+                        preset = payd
                     }
                     textpic {
-                        preset = site_package_basics
+                        preset = payd
                     }
                     textteaser {
-                        preset = site_package_basics
+                        preset = payd
                     }
                     panel {
-                        preset = site_package_basics
+                        preset = payd
                     }
                 }
             }
         }
         tx_bootstrappackage_accordion_item {
             bodytext {
-                preset = site_package_basics
+                preset = payd
             }
         }
         tx_bootstrappackage_tab_item {
             bodytext {
-                preset = site_package_basics
+                preset = payd
             }
         }
     }
