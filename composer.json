@@ -1,8 +1,8 @@
 {
-    "name": "payd/payd",
+    "name": "hof-university/site-package-basics",
     "type": "typo3-cms-extension",
-    "description": "",
-    "homepage": "https://typo3.org",
+    "description": "typo3 site package basics demo",
+    "homepage": "https://hof-university.de",
     "license": ["GPL-2.0+"],
     "keywords": ["TYPO3 CMS"],
     "version": "1.0.0",
